@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NOVA — technology that moves ideas forward.">
+  <title>NOVA — Move Beyond</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="NOVA home"><span class="brand-mark">N</span><span>NOVA<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#approach">Our approach</a>
+      <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> THE NEXT IS NOW</div>
+        <h1>Ideas into<br><span class="gradient-text">what's next.</span></h1>
+        <p class="hero-intro">We turn bold thinking into digital experiences that move businesses, people and possibilities forward.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#solutions">Explore NOVA <span>↗</span></a>
+          <a class="text-link" href="#about">Discover our vision <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> INNOVATION WITHOUT LIMITS</div>
+      </div>
+      <div class="hero-art" aria-label="Abstract glowing futuristic orb">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="orb"><div class="orb-core"></div><div class="orb-shine"></div></div>
+        <div class="art-label label-top"><span>01 / VISION</span><b>Think beyond.</b></div>
+        <div class="art-label label-bottom"><span>02 / IMPACT</span><b>Build what's next.</b></div>
+        <div class="crosshair crosshair-one">+</div><div class="crosshair crosshair-two">+</div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 — 04</span></div>
+    </section>
+
+    <section class="intro section-wrap reveal" id="about">
+      <div class="section-kicker">01 / WHO WE ARE</div>
+      <div class="intro-content">
+        <h2>Tomorrow doesn't<br>build <span class="muted">itself.</span></h2>
+        <div class="intro-text"><p>NOVA is a forward-thinking technology studio driven by curiosity, creativity and the belief that great ideas deserve great execution.</p><a class="arrow-link" href="#approach">Get to know us <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="solutions section-wrap" id="solutions">
+      <div class="section-heading reveal">
+        <div><div class="section-kicker">02 / WHAT WE DO</div><h2>Built for the<br><span class="muted">next frontier.</span></h2></div>
+        <p>From the first spark to the final launch, we create tools and experiences made for a changing world.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal"><div class="card-top"><span>01</span><span class="card-icon">✳</span></div><h3>Digital experiences</h3><p>Distinctive websites and digital products that turn every interaction into an opportunity.</p><a href="#contact" aria-label="Ask about digital experiences">↗</a></article>
+        <article class="service-card reveal"><div class="card-top"><span>02</span><span class="card-icon">⌘</span></div><h3>Smart technology</h3><p>Thoughtful technology and intelligent systems that make complex things feel simple.</p><a href="#contact" aria-label="Ask about smart technology">↗</a></article>
+        <article class="service-card reveal"><div class="card-top"><span>03</span><span class="card-icon">◈</span></div><h3>Creative strategy</h3><p>Clear direction, bold ideas and purposeful design to help brands stand apart.</p><a href="#contact" aria-label="Ask about creative strategy">↗</a></article>
+      </div>
+    </section>
+
+    <section class="statement section-wrap reveal" id="approach">
+      <div class="statement-orb"></div>
+      <div class="section-kicker">03 / OUR MINDSET</div>
+      <h2>Don't follow<br>the future.<br><span class="gradient-text">Create it.</span></h2>
+      <div class="statement-foot"><p>We question the expected, stay curious and keep moving. Because progress belongs to those willing to imagine more.</p><span>NOVA® — EST. FOR WHAT'S NEXT</span></div>
+    </section>
+
+    <section class="contact section-wrap reveal" id="contact">
+      <div class="section-kicker">04 / START SOMETHING</div>
+      <div class="contact-row"><h2>Have a big<br><span class="gradient-text">idea?</span></h2><div class="contact-side"><p>Every great future starts with a conversation. Tell us what you're imagining.</p><a class="button button-light" href="mailto:hello@nova.example">Start a conversation <span>↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">N</span><span>NOVA<span class="brand-dot">.</span></span></a><span>MADE FOR WHAT'S NEXT.</span><span>© <span id="year"></span> NOVA STUDIO</span></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
